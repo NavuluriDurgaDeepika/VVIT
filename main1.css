@@ -1,0 +1,61 @@
+.task2main {
+  background-color: plum; /* background for two images*/
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#side1 {
+  width: 25%;
+  background-color: aquamarine;
+  height: 50%;
+  margin-top: 5%;
+  border-radius: 7% 0% 7% 0%;
+}
+#side2 {
+  width: 74%;
+  height: 100%;
+  background-color: palegoldenrod;
+}
+.edu {
+  width: 100%;
+  background-color: crimson;
+}
+.TechSkills {
+  width: 100%;
+  background-color: green;
+}
+.ach {
+  width: 100%;
+  background-color: magenta;
+}
+.hobbies {
+  width: 100%;
+}
+img {
+  border-radius: 50%;
+  padding-left: 5%;
+  padding-top: 5%;
+}
+#mydetails {
+  text-align: center;
+}
+@media all and (min-width: 320px) and (max-width: 460px) {
+  .task2main {
+    width: 100%;
+  }
+  #side1,
+  #side2 {
+    width: 100%;
+  }
+}
+@media all and (min-width: 481px) and (max-width: 780px) {
+  #side1,
+  #side2 {
+    width: 100%;
+    display: flex;
+  }
+  .data {
+    padding-left: 3em 6em 3em 0em;
+  }
+}

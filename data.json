@@ -1,0 +1,23 @@
+{
+    "basics":{
+        "name":"sai",
+        "role":"Fresher",
+        "email":"deepikanavuluri2000@gmail.com",
+        "mobile":"7032268922",
+        "education":[
+            {
+                "degree":"ssc",
+                "percentage":9.7
+            },
+            {
+                "degree":"Inter",
+                "percentage":97.7
+            },
+            {
+                "degree":"btech",
+                "percentage":9.7
+            }
+        ]
+        
+    }
+}
